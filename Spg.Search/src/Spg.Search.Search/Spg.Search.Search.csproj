@@ -12,4 +12,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Spg.Search.DomainModel\Spg.Search.DomainModel.csproj" />
+    <ProjectReference Include="..\Spg.Search.Application\Spg.Search.Application.csproj" />
+  </ItemGroup>
+
 </Project>
