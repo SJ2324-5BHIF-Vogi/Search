@@ -1,6 +1,10 @@
+using Spg.Search.Search.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddSingleton<IMongoDBServices, MongoDBServices>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -23,3 +27,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+

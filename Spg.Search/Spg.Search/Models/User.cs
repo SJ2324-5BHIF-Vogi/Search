@@ -7,13 +7,11 @@ using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using System.Text.Json.Serialization;
 
-namespace Spg.Search.DomainModel.Model
+namespace Spg.Search.Search.Models
 {
     public class User
     {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string? Id { get; set; }
+        public int Id { get; set; }
         public Guid user_guid { get; set; }
         public int fk_user_id { get; set; }
     }

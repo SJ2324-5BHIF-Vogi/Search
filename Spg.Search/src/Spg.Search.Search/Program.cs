@@ -1,4 +1,10 @@
+using Spg.Search.Search.Models;
+using Spg.Search.Search.Services;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.Configure<MongoDBSettings>(builder.Configuration.GetSection("MongoDB"));
+builder.Services.AddSingleton<MongoDBServices>();
 
 // Add services to the container.
 
