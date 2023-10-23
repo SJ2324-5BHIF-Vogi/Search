@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+using System.Text.Json.Serialization;
 
-namespace Spg.Search.DomainModel.Model
+namespace Spg.Search.Search.Model
 {
-    internal class Content
+    public class Content
     {
         public int Id { get; set; }
         public Guid content_guid { get; set; }
