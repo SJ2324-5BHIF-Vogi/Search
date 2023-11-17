@@ -15,3 +15,9 @@ Dieser Microservice wurde von folgenden Entwicklern erstellt:
 - Bernd Chmelik
 - Raymond Ermler
 - Marvin Kantusch
+
+## Aufteilung der Arbeit
+
+Die Entwicklung dieses Microservices war für jeden von uns eine neue und herausfordernde Erfahrung. Wir haben uns regelmäßig zusammengesetzt, um gemeinsam an verschiedenen Teilen des Projekts zu arbeiten. Aufgrund unserer häufigen Zusammenarbeit und dem regelmäßigen Besprechen ist es jedoch schwierig, eine klare Aufgabenaufteilung festzulegen.
+
+Jeder von uns hat aktiv an sämtlichen Aspekten des Projekts mitgewirkt. Obwohl die Git-Historie möglicherweise nicht den umfassenden Beitrag jedes Einzelnen genau widerspiegelt, können wir versichern, dass alle Mitglieder gleichermaßen an der Entwicklung beteiligt waren. Es wäre ungenau, einem bestimmten Teammitglied einen spezifischen Teil des Projekts zuzuordnen.
