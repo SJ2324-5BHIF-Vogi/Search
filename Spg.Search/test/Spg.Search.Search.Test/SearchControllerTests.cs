@@ -1,5 +1,4 @@
-﻿using NUnit.Framework;
-using Moq;
+﻿using Moq;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Spg.Search.DomainModel.Dtos;

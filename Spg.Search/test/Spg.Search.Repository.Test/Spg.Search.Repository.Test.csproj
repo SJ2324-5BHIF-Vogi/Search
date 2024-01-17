@@ -26,6 +26,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\Spg.Search.Repository\Spg.Search.Repository.csproj" />
     <ProjectReference Include="..\..\src\Spg.Search.DomainModel\Spg.Search.DomainModel.csproj" />
+    <ProjectReference Include="..\..\src\Spg.Search.Search\Spg.Search.Search.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,3 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using Assert = Xunit.Assert;
 using MongoDB.Driver;
@@ -13,7 +12,6 @@ using Spg.Search.Application.Test.Mocks;
 
 namespace Spg.Search.Application.Test;
 
-[TestClass]
 public class SearchHistoryHandlerTests
 {
     private readonly SearchRepositoryMock _searchRepositoryMock;
