@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.21.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Spg.ContentTeil.DomainModel\Spg.ContentTeil.DomainModel.csproj" />
+    <ProjectReference Include="..\Spg.ContentTeil.Infrastructure\Spg.ContentTeil.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Spg.Search.Repository</RootNamespace>
+  </PropertyGroup>
+
+</Project>
